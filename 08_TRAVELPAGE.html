@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boostrap page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "PerfectoCalligraphy";
+        src: url("PerfectoCalligraphy.ttf") format("truetype");
+      }
+      .carousel-item img {
+        height: 50vh;
+        object-fit: cover;
+      }
+      body {
+        background-color: burlywood;
+        margin: 0;
+        padding: 0;
+      }
+      .carousel-inner {
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 3px solid rgb(255, 255, 255);
+      }
+      .boxofcards {
+        display: flex;
+        margin: 20px;
+        padding: 30px;
+
+        justify-content: space-around;
+      }
+      .footer {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+      }
+      .boxofcards .card {
+        border: 3px solid rgb(255, 255, 255);
+      }
+      .title {
+        color: white;
+        font-family: "PerfectoCalligraphy", cursive;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">༻ BeachBound ༺</h1>
+    <div class="container d-flex justify-content-center">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        style="width: 100%"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="img1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/6624559/pexels-photo-6624559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="img2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/18752882/pexels-photo-18752882/free-photo-of-view-of-the-tower-bridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="img3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="boxofcards">
+      <div class="card" style="width: 18rem">
+        <a
+          href="https://youtu.be/Cqg8tQH4U8M?si=U8F1AZk7jamdlAjT"
+          target="_blank"
+        >
+          <img src="images/image1.png" class="card-img-top" alt="img1"
+        /></a>
+        <div class="card-body">
+          <h5 class="card-title">New York City</h5>
+          <p class="card-text">
+            New York City (USA) dazzles with iconic landmarks, diverse culture,
+            and endless energy—an unforgettable destination in every season.<br />Click
+            below to watch the New York City vlog by Taylor Bell.
+          </p>
+          <a
+            href="https://youtu.be/Cqg8tQH4U8M?si=U8F1AZk7jamdlAjT"
+            class="btn btn-outline-primary"
+            target="_blank"
+            >Watch now</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <a
+          href="https://youtu.be/evW2ZJNVm_A?si=Bc_1JaST3Re45myu"
+          target="_blank"
+        >
+          <img src="images/image2.png" class="card-img-top" alt="img2"
+        /></a>
+        <div class="card-body">
+          <h5 class="card-title">Hawaii</h5>
+          <p class="card-text">
+            Hawaii (USA) offers stunning beaches, lush landscapes, and rich
+            island culture—a tropical paradise perfect for adventure and
+            relaxation.<br />Click below to watch the Hawaii vlog by Kenna
+            Marie.
+          </p>
+          <a
+            href="https://youtu.be/evW2ZJNVm_A?si=Bc_1JaST3Re45myu"
+            class="btn btn-outline-primary"
+            target="_blank"
+            >Watch now</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <a
+          href="https://youtu.be/5s2CAq64kkI?si=bcHdp0NPRs41Ok_L"
+          target="_blank"
+        >
+          <img src="images/image3.png" class="card-img-top" alt="img3"
+        /></a>
+        <div class="card-body">
+          <h5 class="card-title">London</h5>
+          <p class="card-text">
+            London (UK) blends rich history with modern charm—iconic sights,
+            world-class museums, and vibrant neighborhoods await around every
+            corner.<br />Click below to watch the London vlog by Cozy K.
+          </p>
+          <a
+            href="https://youtu.be/5s2CAq64kkI?si=bcHdp0NPRs41Ok_L"
+            class="btn btn-outline-primary"
+            target="_blank"
+            >Watch now</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="footer">&copy Shreeya</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
